@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(185, 75%, 39%);
+    font-size: 11px;
+    font-family: 'Kumbh Sans', sans-serif;
+    width: 98vw;
+    height: 96vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.container{
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 20px;
+    /* margin : auto; */
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow:  0 0 5px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 1;
+}
+
+.div1{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.image img{
+    top: 29%;
+    left: 36%;
+    position:absolute
+}
+
+.image img{
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+/* Name , Age and Address */
+article{
+    height: 54%;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 20px;
+}
+
+
+
+.name .victor{
+    font-weight:bolder ;
+    font-size: 20px;
+    color:  hsl(229, 23%, 23%);
+}
+
+.name .age{
+    font-weight: 400px;
+    font-size: 20px;
+    color:  hsl(227, 10%, 46%);
+}
+
+
+/* Below the horizontal line*/
+.div2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 200px; /* Adjust box width as needed */
+    height: 100px; /* Adjust box height as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box .data{
+    font-weight: 700 ;
+    font-size: 20px;
+    color:  hsl(229, 23%, 23%);
+} 
+
+.box .type{
+    font-weight: 400px;
+    font-size: 15px;
+    color:  hsl(227, 10%, 46%);
+}
+
+
+/* <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+<style>
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+</style> */
+
+.top{
+    position: absolute;
+    margin-top: -60%;
+    margin-left: -60%;
+}
+.bottom{
+    position: absolute;
+    margin-top: 70%;
+    margin-left: 70%;
+}
